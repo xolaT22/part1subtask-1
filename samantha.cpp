@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Morse code dictionary using ASCII representation
+
 map<char, string> morseCode = {
     {'A', ".-"},    {'B', "-..."},  {'C', "-.-."}, {'D', "-.."},v
     {'E', "."},     {'F', "..-."},  {'G', "--."},  {'H', "...."},
