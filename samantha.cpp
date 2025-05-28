@@ -37,7 +37,7 @@ int main() {
     cout << "\nFull Morse Code Message: ";
     for (char c : input) {
         if (morseCode.count(c)) {
-            cout << morseCode[c] << "   ";  // 3 spaces between letters
+            cout << morseCode[c] << "   ";  
         }
     }
 
