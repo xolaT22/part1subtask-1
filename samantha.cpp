@@ -26,7 +26,7 @@ int main() {
 
     cout << endl;
 
-    // Print Morse code per letter
+    
     for (char c : input) {
         if (morseCode.count(c)) {
             cout << c << ": " << morseCode[c] << endl;
